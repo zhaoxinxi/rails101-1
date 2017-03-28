@@ -4,7 +4,7 @@ class GroupsController < ApplicationController
 
   def index
     @groups =Group.all
-    flash[:notice] = "早安！你好！"
+    
   end
 
   def show
